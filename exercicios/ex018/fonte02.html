@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas </title>
+    <style>
+        /* Dafont.com */
+        @font-face {
+            font-family:'love' ;
+            src: url('fonts/love\ story\ ttf.ttf') format('truetype'), url('love story oft') format('opentype');
+             font-weight : normal;
+             font-style: normal;
+            /*
+            tipos de format()
+            - opentype (oft)
+            - truetype (ttf)
+            -embedded-opentype
+            - truetype-aat (Apple Advance typography)
+            - svg
+            */
+        }
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1 {
+            font-family: 'love', Times, serif ;
+            font-size: 3em;
+            font-weight: normal;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad velit iste maxime harum quisquam, laudantium laborum consequuntur odio quod, ratione fugit animi iusto, nam vero repellat minus commodi inventore. Alias!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe rem non odit soluta nihil nulla possimus dicta cumque est odio sed quis voluptas, eius, facere quo eos delectus! Quis, repellendus?</p>
+</body>
+</html>

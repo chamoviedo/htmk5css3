@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: darkgray;
+        }
+        #conteiner {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1> Uma nova tabela</h1>
+    <div id="conteiner">
+        <table>
+            <caption>
+                Treino de tabela
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abri</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Julh</th>
+                    <th scope="col">ago</th>
+                    <th scope="col">Set</th>
+                </tr>
+                <tr>
+                    <td> tv40</td>
+                    <td>5</td>
+                    <td>54</td>
+                    <td>21</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>94</td>
+                    <td>8</td>
+                    <td>87</td>
+        
+                </tr>
+                <tr>
+                    <td>nota</td>
+                    <td>5</td>
+                    <td>92</td>
+                    <td>2</td>
+                    <td>54</td>
+                    <td>62</td>
+                    <td>71</td>
+                    <td>2</td>
+                    <td>8</td>
+        
+                </tr>
+                <tr>
+                    <td>play</td>
+                    <td>21</td>
+                    <td>12</td>
+                    <td>41</td>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>21</td>
+                    <td>14</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td> Amazon</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>5</td>
+                    <td>58</td>
+                    <td>42</td>
+                    <td>31</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>

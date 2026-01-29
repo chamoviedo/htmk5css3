@@ -1,8 +1,12 @@
 @charset "utf-8";
 
 
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
 header {
-    background-image: linear-gradient(to top, rgb(54, 48, 48), green);
+    background-image: linear-gradient(to bottom, blue,  transparent);
     text-align: center;
     margin: 0px;
     padding: 50px;
@@ -13,9 +17,15 @@ main{
     margin: 0px;
     padding: 0px;
 }
+
+h1#principal {
+    font-weight: bolder;
+    font-size: 1,3vw;
+}
 p {
     text-indent: 40px;
     text-decoration: justify;
+    margin: 15px 0px;
 }
 h2 {
     margin: 0px;
